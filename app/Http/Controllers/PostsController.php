@@ -76,9 +76,24 @@ class PostsController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Posts $posts)
+    public function update(Request $request, int $id): RedirectResponse
     {
-        //
+        $post = Posts::findOrFail($id);
+        $imagePath = $post->image;
+        if (File::exists($imagePath)) {
+            File::delete($imagePath);
+        }
+
+        $imageName = time() . '-' . $request->file('image')->getClientOriginalName();
+        $request->file('image')->move('images/', $imageName);
+    
+        $post->title = $request->input('title');
+        $post->description = $request->input('description');
+        $post->tag = $request->input('tag');
+        $post->image = 'images/' . $imageName;
+        $post->save();
+    
+        return redirect()->route('home');
     }
 
     /**
