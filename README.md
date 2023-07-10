@@ -16,7 +16,7 @@ Aplicación de un blog para el proceso de selección en Wiber Rent a Car.
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS) 
 
 
-## Levantar el proyecto en local 🛠
+## Levantar el proyecto en local 🧰
 
 >En la carpeta donde esta la aplicacion
 
