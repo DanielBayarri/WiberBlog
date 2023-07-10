@@ -3,7 +3,7 @@
 
 ## Descripción 📑
 
-Aplicación de un blog para el proceso de selección en Wiber rent a car.
+Aplicación de un blog para el proceso de selección en Wiber Rent a Car.
 
 ## Autor ✒️
 **Daniel Bayarri**
