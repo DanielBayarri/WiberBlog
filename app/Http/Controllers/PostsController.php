@@ -70,7 +70,6 @@ class PostsController extends Controller
     public function edit(int $id)
     {
         $post = Posts::find($id);
-
         return view('posts.edit', ['post' => $post]);
     }
 
