@@ -71,7 +71,7 @@ class PostsController extends Controller
     {
         $post = Posts::find($id);
 
-        return view('posts.edit', ['posts' => $post]);
+        return view('posts.edit', ['post' => $post]);
     }
 
     /**
