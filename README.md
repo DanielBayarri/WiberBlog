@@ -35,7 +35,7 @@ DB_PASSWORD=
 ```
 Crear una base de datos vacia con el nombre puesto en la conexión.
 
-######DB_DATABASE='nombreBaseDatos'
+`DB_DATABASE='nombreBaseDatos'`
 
 >En la carpeta donde esta la aplicacion
 
