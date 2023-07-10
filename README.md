@@ -26,7 +26,7 @@ Aplicación de un blog para el proceso de selección en Wiber Rent a Car.
 
 Abrir proyecto y copiar archivo .env.example y cambiarle el nombre a .env
 
-modificar la conexion a la bbdd en .env
+modificar la conexion a la bbdd en .env por la de su servidor local
 
 ```php
 DB_CONNECTION=mysql
